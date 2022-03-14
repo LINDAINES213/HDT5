@@ -1,0 +1,1 @@
+En este caso la estrategia más recomendada es tener un procesador mucho más rápido, ya que logra correr con mayor velocidad la cantidad que sea de procesos reduciendo el tiempo promedio de la duración de todos los procesos.
