@@ -26,8 +26,8 @@ def simulacion(env, proceso_simulacion, RAM, CPU, duracion_simulacion, tiempo_si
         print('%s tardo %f' % (proceso_simulacion, env.now))
 
 env = simpy.Environment()
-CPU = simpy.Resource(env, capacity = 1)
-RAM = simpy.Container(env, init = 200, capacity = 200)
+CPU = simpy.Resource(env, capacity = 2)
+RAM = simpy.Container(env, init = 100, capacity = 100)
 intervalo = 1
 cantidad_procesos = 200
 total_simulacion = 0
